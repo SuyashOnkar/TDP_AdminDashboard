@@ -1,0 +1,12 @@
+div {
+    border: 0.3px solid black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.item, .dashboard {
+    display: flex;
+}
